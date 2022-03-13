@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Futures calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="deposit">
+        <p>Deposit</p>
+        <div class="deposit_input">
+          <input type="number" class="depositInput inp" />
+        </div>
+      </div>
+
+      <div class="leverage">
+        <p>Leverage</p>
+        <div class="leverage_input">
+          <input type="number" class="leverageInput inp" />
+        </div>
+      </div>
+
+      <div class="entry">
+        <p>Entry price</p>
+        <div class="entry_input">
+          <input type="number" class="entryInput inp" />
+        </div>
+      </div>
+
+      <div class="exit">
+        <p>Exit price</p>
+        <div class="exit_input">
+          <input type="number" class="exitInput inp" />
+        </div>
+      </div>
+
+      <div class="calculate">
+        <button class="btn">Calculate</button>
+      </div>
+      <div class="liquidation">
+        <p>Liquidation</p>
+        <div class="liquidation_input">
+          <span class="liqResult"></span>
+        </div>
+      </div>
+
+      <div class="pnl">
+        <p>PNL (profit/loss)</p>
+        <div class="pnl_input">
+          <span class="pnlResult"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="functionality.js"></script>
+</html>
